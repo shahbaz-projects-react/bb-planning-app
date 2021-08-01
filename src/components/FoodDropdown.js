@@ -24,9 +24,9 @@ const FoodDropdown = (props) => {
     }
 
   return <Dropdown 
-          placeholder='Food' 
+          placeholder='Food'  
+          multiple
           fluid 
-          multiple 
           search
           selection 
           options={foodOptions} 
