@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import RowComponent from "../Components/RowComponent";
-import { AppContext } from '../Components/ContextProvider'
+import RowComponent from "../components/RowComponent";
+import { AppContext } from '../components/ContextProvider'
 import keysIn from "lodash/keysIn";
 import { Table } from 'semantic-ui-react'
 
