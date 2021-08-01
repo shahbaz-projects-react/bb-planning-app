@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/shahbaz-projects-react/bb-planning-app/static/css/main.44d9da4f.chunk.css",
-    "main.js": "/shahbaz-projects-react/bb-planning-app/static/js/main.1aa52fc9.chunk.js",
-    "main.js.map": "/shahbaz-projects-react/bb-planning-app/static/js/main.1aa52fc9.chunk.js.map",
-    "runtime-main.js": "/shahbaz-projects-react/bb-planning-app/static/js/runtime-main.3a78a7e3.js",
-    "runtime-main.js.map": "/shahbaz-projects-react/bb-planning-app/static/js/runtime-main.3a78a7e3.js.map",
-    "static/js/2.9dc6233c.chunk.js": "/shahbaz-projects-react/bb-planning-app/static/js/2.9dc6233c.chunk.js",
-    "static/js/2.9dc6233c.chunk.js.map": "/shahbaz-projects-react/bb-planning-app/static/js/2.9dc6233c.chunk.js.map",
-    "static/js/3.34ead484.chunk.js": "/shahbaz-projects-react/bb-planning-app/static/js/3.34ead484.chunk.js",
-    "static/js/3.34ead484.chunk.js.map": "/shahbaz-projects-react/bb-planning-app/static/js/3.34ead484.chunk.js.map",
-    "index.html": "/shahbaz-projects-react/bb-planning-app/index.html",
-    "static/css/main.44d9da4f.chunk.css.map": "/shahbaz-projects-react/bb-planning-app/static/css/main.44d9da4f.chunk.css.map",
-    "static/js/2.9dc6233c.chunk.js.LICENSE.txt": "/shahbaz-projects-react/bb-planning-app/static/js/2.9dc6233c.chunk.js.LICENSE.txt"
+    "main.css": "./static/css/main.44d9da4f.chunk.css",
+    "main.js": "./static/js/main.5c01aa03.chunk.js",
+    "main.js.map": "./static/js/main.5c01aa03.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.94f37a18.js",
+    "runtime-main.js.map": "./static/js/runtime-main.94f37a18.js.map",
+    "static/css/2.6193c3b8.chunk.css": "./static/css/2.6193c3b8.chunk.css",
+    "static/js/2.950cc346.chunk.js": "./static/js/2.950cc346.chunk.js",
+    "static/js/2.950cc346.chunk.js.map": "./static/js/2.950cc346.chunk.js.map",
+    "static/js/3.d9150874.chunk.js": "./static/js/3.d9150874.chunk.js",
+    "static/js/3.d9150874.chunk.js.map": "./static/js/3.d9150874.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.6193c3b8.chunk.css.map": "./static/css/2.6193c3b8.chunk.css.map",
+    "static/css/main.44d9da4f.chunk.css.map": "./static/css/main.44d9da4f.chunk.css.map",
+    "static/js/2.950cc346.chunk.js.LICENSE.txt": "./static/js/2.950cc346.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "./static/media/outline-icons.ddae9b1b.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.3a78a7e3.js",
-    "static/js/2.9dc6233c.chunk.js",
+    "static/js/runtime-main.94f37a18.js",
+    "static/css/2.6193c3b8.chunk.css",
+    "static/js/2.950cc346.chunk.js",
     "static/css/main.44d9da4f.chunk.css",
-    "static/js/main.1aa52fc9.chunk.js"
+    "static/js/main.5c01aa03.chunk.js"
   ]
 }
