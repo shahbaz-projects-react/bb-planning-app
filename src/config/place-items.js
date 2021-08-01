@@ -1,0 +1,1 @@
+export const places = ['Chutki','Puchu','Individual'];
