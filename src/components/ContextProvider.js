@@ -12,6 +12,7 @@ const ContextProvider = ({children}) => {
 
     const updateStore = useCallback((...args) => {
         const [foods, place, day] = args;
+        console.log(store);
         const selectedDay = get(store,day,{});
         if(!isEmpty(selectedDay)){
             const newStore = {...store, [day]:{...selectedDay,foods, place}};
