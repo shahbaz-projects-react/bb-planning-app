@@ -1,14 +1,20 @@
 import './App.css';
 import 'semantic-ui-css/semantic.min.css'
 import BBPage from "./Pages/bb-page";
+import ContextProvider from './Components/ContextProvider'
+import { Container } from 'semantic-ui-react'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h2>BB Planning App</h2>
-        <BBPage/>
-      </header>
+      <ContextProvider>
+        <header className="App-header">
+          <h2>BB Planning App</h2>
+        </header>
+        <Container text>
+          <BBPage/>
+        </Container>
+      </ContextProvider>
     </div>
   );
 }

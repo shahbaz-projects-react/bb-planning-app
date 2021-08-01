@@ -16,8 +16,7 @@ const PlaceDropdown = (props) => {
     }
 
   return <Dropdown 
-          placeholder='Place' 
-          fluid 
+          placeholder='Place'  
           search
           selection 
           options={placeOptions} 
