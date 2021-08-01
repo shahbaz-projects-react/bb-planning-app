@@ -1,6 +1,6 @@
 import get from "lodash/get";
 import isEmpty from "lodash/isEmpty";
-import {  createContext, useEffect, useState,useCallback } from "react";
+import {  createContext, useEffect, useState } from "react";
 import {weekly_plan} from '../config/store'
 
 export const AppContext = createContext();
@@ -10,16 +10,14 @@ const ContextProvider = ({children}) => {
     
     useEffect(()=>console.log('Store updated',store),[store])
 
-    const updateStore = useCallback((...args) => {
+    const updateStore = (...args) => {
         const [foods, place, day] = args;
-        console.log(store);
         const selectedDay = get(store,day,{});
         if(!isEmpty(selectedDay)){
             const newStore = {...store, [day]:{...selectedDay,foods, place}};
             setStore(newStore)
         }
-      }, []);
-    
+      };
 
     useEffect(()=>{
         setStore(weekly_plan)
