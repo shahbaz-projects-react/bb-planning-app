@@ -1,30 +1,30 @@
-export const weekly_plan= {
-  "Monday" : {
-    foods :[],
-    place :""
+export const weekly_plan = {
+  "Monday": {
+    foods: [],
+    place: ""
   },
-  "Tuesday" : {
-    foods :[],
-    place :""
+  "Tuesday": {
+    foods: ["Paneer Curry", "Ghar ki Roti", "Mutton Curry"],
+    place: "Puchu"
   },
-  "Wednesday" : {
-    foods :[],
-    place :""
+  "Wednesday": {
+    foods: ["Egg Noodles"],
+    place: "Chutki"
   },
-  "Thursday" : {
-    foods :[],
-    place :""
+  "Thursday": {
+    foods: ["Chicken Pasta"],
+    place: "Chutki"
   },
-  "Friday" : {
-    foods :[],
-    place :""
+  "Friday": {
+    foods: ["Chicken Maggi"],
+    place: "Chutki"
   },
-  "Saturday" : {
-    foods :[],
-    place :""
+  "Saturday": {
+    foods: [],
+    place: ""
   },
-  "Sunday" : {
-    foods :[],
-    place :""
+  "Sunday": {
+    foods: [],
+    place: ""
   }
 }

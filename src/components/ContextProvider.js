@@ -20,7 +20,8 @@ const ContextProvider = ({ children }) => {
     };
 
     useEffect(() => {
-        setStore(getData())
+        getData().then(data => setStore(data)).catch(err => console.log('Errrrrorr', { err }));
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     return (
