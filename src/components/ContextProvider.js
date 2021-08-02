@@ -2,13 +2,14 @@ import get from "lodash/get";
 import isEmpty from "lodash/isEmpty";
 import {  createContext, useEffect, useState } from "react";
 import {weekly_plan} from '../config/store'
+import {getData} from "../utils/localStorage";
 
 export const AppContext = createContext();
 
 const ContextProvider = ({children}) => {
     const [store, setStore]= useState({});
     
-    useEffect(()=>console.log('Store updated',store),[store])
+    useEffect(()=>console.log('Store updated',store, getData()),[store])
 
     const updateStore = (...args) => {
         const [foods, place, day] = args;
