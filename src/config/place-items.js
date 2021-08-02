@@ -1,1 +1,1 @@
-export const places = ['Chutki','Puchu','Individual'];
+export const places = ['Chutki', 'Puchu', 'Individual'];
