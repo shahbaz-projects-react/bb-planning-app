@@ -10,7 +10,6 @@ const RowComponent = ({day})=>{
   const [placeSelected,setPlaceSelected] =  useState([]);
 
   useEffect(()=>{
-    console.log(foodsSelected,placeSelected);
   },[foodsSelected,placeSelected]);
 
 

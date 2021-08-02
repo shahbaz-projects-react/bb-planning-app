@@ -1,7 +1,7 @@
 import './App.css';
 import 'semantic-ui-css/semantic.min.css'
 import BBPage from "./Pages/bb-page";
-import ContextProvider from './Components/ContextProvider'
+import ContextProvider from './components/ContextProvider'
 import { Container } from 'semantic-ui-react'
 
 function App() {
