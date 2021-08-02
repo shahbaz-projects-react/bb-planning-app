@@ -1,17 +1,10 @@
-import { useContext } from "react"
-import {AppContext} from './ContextProvider'
 import { Button, Icon } from 'semantic-ui-react'
 
-const SaveButton = ({foods,place,day}) => {
-    const {updateStore} = useContext(AppContext);
-
-    const handleSave = () => {
-       updateStore(foods,place,day)
-    }
-    return <Button animated='vertical' onClick={handleSave}>
-    <Button.Content hidden>Update</Button.Content>
+const SaveButton = ({ handleSave }) => {
+  return <Button onClick={handleSave}>
+    <Button.Content hidden>Save Changes</Button.Content>
     <Button.Content visible>
-      <Icon name='add' />
+      <Icon name='save' />
     </Button.Content>
   </Button>
 }
