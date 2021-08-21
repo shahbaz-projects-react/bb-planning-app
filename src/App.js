@@ -1,5 +1,5 @@
 import React from "react";
-import { MainContainer } from "./components/Container";
+import { MainContainer } from "./components/MainContainer";
 import { store,StateProvider } from "./redux/store";
 import Typography from "@material-ui/core/Typography";
 import Inputs from "./components/Inputs";
