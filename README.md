@@ -6,7 +6,7 @@
 
 ## Schedule your food plans for the week
 
-[BB Foods App](https://bb-planning-app.vercel.app/) - hosted in [Vercel](https://vercel.com/bb-foods) is mobile app for keeping track of food plans for a week. It is an POC. ✨Magic ✨
+[BB Foods App](https://bb-planning-app.vercel.app/) - hosted in [Heroku](https://plan-food-app.herokuapp.com/) is mobile app for keeping track of food plans for a week. It is an POC. ✨Magic ✨
 
 ## Features
 
