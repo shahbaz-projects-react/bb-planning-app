@@ -1,6 +1,6 @@
 const Days = ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"];
 const MealTime = ["Lunch", "Dinner"];
-const Persons = ["Aditi", "Shahbaz"];
+const Persons = ["Aditi", "Shahbaz","Individual"];
 
 const ActionTypes = {
   changeFormData: "changeFormData",
