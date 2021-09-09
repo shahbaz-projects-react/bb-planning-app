@@ -1,11 +1,12 @@
 const Days = ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"];
 const MealTime = ["Lunch", "Dinner"];
-const Persons = ["Aditi", "Shahbaz","Individual"];
+const Persons = ["Aditi", "Shahbaz", "Individual"];
 
 const ActionTypes = {
   changeFormData: "changeFormData",
   addItem: "addItem",
-  setTableData: "setTableData"
+  setTableData: "setTableData",
+  setInputData: "setInputData"
 };
 
 const StorageKey = "Plan_App_Key";
