@@ -1,6 +1,7 @@
 // store.js
 import React, { createContext, useReducer } from "react";
 import { ActionTypes } from "../constants/constants";
+import get from 'lodash/get'
 
 const INITIAL_DATA = {
   day: "",
@@ -57,7 +58,13 @@ const StateProvider = ({ children }) => {
             [currentData.day]: { ...currentDayData, [time]: { ...currentData } }
           }
         };
-
+      case ActionTypes.setInputData: {
+        const currentData = get(action, 'payload', INITIAL_DATA);
+        return {
+          ...state,
+          currentData
+        };
+      }
       default:
         return state;
     }
